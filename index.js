@@ -3,8 +3,8 @@
 
 const client = require('ari-client');
 
-const generarAudio = require('./helpers/tts');
-const convertirAudio = require('./helpers/sox');
+const generarAudio = require('./extras/tts');
+const convertirAudio = require('./extras/sox');
 
 //base de datos
 ///const connection = require('./db');
